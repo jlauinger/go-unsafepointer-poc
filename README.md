@@ -1,7 +1,7 @@
 # Go unsafe.Pointer vulnerability POCs
 
 This is a series of proof of concept Go programs showing how the use of `unsafe.Pointer` can lead
-to different vulnerabilities. There are four examples in total.
+to different vulnerabilities. There are six examples in total.
 
 These examples accompany the blog post series [Exploitation Exercise with unsafe.Pointer in Go](https://dev.to/jlauinger/exploitation-exercise-with-unsafe-pointer-in-go-information-leak-part-1-1kga).
 
