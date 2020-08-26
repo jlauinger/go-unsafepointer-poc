@@ -42,7 +42,9 @@ go build main.go
 ./exploit_rop.py
 ```
 
-You need the pwntools package for Python 2.
+You need the pwntools package for Python 2. You need to compile with the Go compiler version go1.15 linux/amd64
+to make sure the ROP gadget addresses align. If you use a different version then the addresses might be different.
+The blog post explains how to use Ropper to find the gadgets so you can update the addresses.
 
 Expected output:
 
