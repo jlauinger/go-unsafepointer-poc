@@ -1,4 +1,4 @@
-# Information Leak POC
+# Architecture dependent types cast POC
 
 This proof of concept shows how architecture-dependent types within a struct type can cause
 alignment issues and thus buffer overflow vulnerabilities when structs are casted in-place using

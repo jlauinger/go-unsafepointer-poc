@@ -1,4 +1,4 @@
-# Code Flow Redirection POC
+# Escape Analysis Flaw POC
 
 This proof of concept shows how a common, insecure casting pattern for slice types leads to a
 flawed escape analysis that creates a dangling pointer vulnerability.

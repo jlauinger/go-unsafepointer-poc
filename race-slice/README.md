@@ -1,4 +1,4 @@
-# Code Flow Redirection POC
+# Slice Cast GC Race POC
 
 This proof of concept shows how a common, insecure casting pattern for slice types leads to a
 garbage collector (GC) race condition that causes a use-after-free vulnerability.
