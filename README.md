@@ -54,7 +54,7 @@ garbage collector race condition that causes a use-after-free vulnerability.
 The exploit code along with instructions to execute it is located in the `race-slice` directory.
 
 
-## Escape analyis flaw POC
+## Escape analysis flaw POC
 
 This proof of concept shows how a common, insecure casting pattern for slice types leads to a
 flawed escape analysis that creates a dangling pointer vulnerability.
