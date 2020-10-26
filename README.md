@@ -1,7 +1,7 @@
 # Go unsafe.Pointer vulnerability POCs
 
 This is a series of proof of concept Go programs showing how the use of `unsafe.Pointer` can lead
-to different vulnerabilities. There are six examples in total.
+to different vulnerabilities. There are seven examples in total.
 
 These examples accompany the blog post series [Exploitation Exercise with unsafe.Pointer in Go](https://dev.to/jlauinger/exploitation-exercise-with-unsafe-pointer-in-go-information-leak-part-1-1kga). The blog series comprises the following parts:
 
@@ -70,4 +70,11 @@ alignment issues and thus buffer overflow vulnerabilities when structs are caste
 
 The exploit code along with instructions to execute it is located in the `struct-cast` directory.
 
+
+## go-fuse bug POC
+
+This proof of concepts shows how to exploit a bug that leads to incorrect length information in
+a dynamically created slice.
+
+The exploit code along with instructions to execute it is located in the `go-fuse` directory.
 
